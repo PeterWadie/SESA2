@@ -7,8 +7,8 @@ const getCrawler = (requestHandler, failedRequestHandler) =>
       failedRequestHandler,
       maxRequestRetries: 0,
       maxSessionRotations: 1000,
-      navigationTimeoutSecs: 5,
-      requestHandlerTimeoutSecs: 5
+      navigationTimeoutSecs: 15,
+      requestHandlerTimeoutSecs: 15
     },
     new Configuration({
       persistStorage: false,
